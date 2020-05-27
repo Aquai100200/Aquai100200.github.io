@@ -25,8 +25,16 @@ body{
 
 #showcase h1{
     font-size:50px;
+    line-height:1;
 }
 
 #showcase p{
     font-size:20px;
+}
+
+a {
+    color: darkslateblue;
+}
+a:hover, a:active, a:focus {
+    color: forestgreen;
 }
