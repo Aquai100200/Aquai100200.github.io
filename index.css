@@ -6,9 +6,34 @@ body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
     font-size:17px;
-    color: forestgreen;
     line-height:1.6;
 }
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+
 
 #showcase{
     background-image: url(/Skyrim\ Special\ Edition\ 26_05_2020\ 22_43_12.png);
@@ -24,17 +49,46 @@ body{
 }
 
 #showcase h1{
+    color:forestgreen;
+    margin-top:0 ;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
     font-size:50px;
     line-height:1;
 }
 
 #showcase p{
+    color:forestgreen;
+    margin-top:0 ;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
     font-size:20px;
 }
 
-a {
-    color: darkslateblue;
+a{
+    color:black !important;
 }
 a:hover, a:active, a:focus {
-    color: forestgreen;
+    color:white !important;
+}
+
+.fa-github{
+    color:indigo ;
+}
+.fa-github:hover, .fa-github:active, .fa-github:focus{
+    color:forestgreen;
+}
+.fa-steam{
+    color:indigo;
+}
+.fa-steam:hover, .fa-steam:active, .fa-steam:focus{
+    color:forestgreen;
+}
+.fa-instagram{
+    color:indigo;
+}
+.fa-instagram:hover, .fa-instagram:active, .fa-instagram:focus{
+    color:forestgreen;
 }
