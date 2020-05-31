@@ -68,27 +68,8 @@ body{
 }
 
 a{
-    color:black !important;
+    color:indigo !important;
 }
 a:hover, a:active, a:focus {
-    color:white !important;
-}
-
-.fa-github{
-    color:indigo ;
-}
-.fa-github:hover, .fa-github:active, .fa-github:focus{
-    color:forestgreen;
-}
-.fa-steam{
-    color:indigo;
-}
-.fa-steam:hover, .fa-steam:active, .fa-steam:focus{
-    color:forestgreen;
-}
-.fa-instagram{
-    color:indigo;
-}
-.fa-instagram:hover, .fa-instagram:active, .fa-instagram:focus{
-    color:forestgreen;
+    color:forestgreen !important;
 }
