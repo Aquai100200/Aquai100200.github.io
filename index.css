@@ -25,8 +25,11 @@ body{
 }
 
 .fa-bars{
-    color: white;
+    color:indigo;
     font-size: 30px !important;
+}
+.fa-bars:hover, .fa-bars:active,.fa-bars:focus{
+    color:forestgreen;
 }
 
 .navbar-toggler{
@@ -65,6 +68,19 @@ body{
     margin-right: auto;
     padding:10px;
     font-size:20px;
+}
+
+#stuffnthings{
+    background-image: url(/Skyrim\ Special\ Edition\ 25_05_2020\ 13_10_24.png);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
 }
 
 a{
