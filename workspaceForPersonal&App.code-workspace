@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "..\\Engergy.github.io"
+        },
+        {
+            "path": "..\\LTMM1.github.io"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "LTMM1.github.io"
+    }
+}
