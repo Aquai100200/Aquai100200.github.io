@@ -6,9 +6,37 @@ body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
     font-size:17px;
-    color: forestgreen;
     line-height:1.6;
 }
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color:indigo;
+    font-size: 30px !important;
+}
+.fa-bars:hover, .fa-bars:active,.fa-bars:focus{
+    color:forestgreen;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+
 
 #showcase{
     background-image: url(/Skyrim\ Special\ Edition\ 26_05_2020\ 22_43_12.png);
@@ -24,17 +52,40 @@ body{
 }
 
 #showcase h1{
+    color:forestgreen;
+    margin-top:0 ;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
     font-size:50px;
     line-height:1;
 }
 
 #showcase p{
+    color:forestgreen;
+    margin-top:0 ;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
     font-size:20px;
 }
 
-a {
-    color: darkslateblue;
+#stuffnthings{
+    background-image: url(/Skyrim\ Special\ Edition\ 25_05_2020\ 13_10_24.png);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+}
+
+a{
+    color:indigo !important;
 }
 a:hover, a:active, a:focus {
-    color: forestgreen;
+    color:forestgreen !important;
 }
